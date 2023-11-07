@@ -1,0 +1,725 @@
+html{
+  font-family:sans-serif;
+}
+.error_msg{
+  color: red;
+}
+.help_text{
+  font-size: 10px;
+  color: grey;
+  border-top:100px;
+}
+.form_title {
+  margin-top: 30px;
+}
+.corner_icon{
+  width:10vw;
+}
+.hidden{
+  display: none;
+}
+.signup_form{
+  width: 30vw;
+  margin: 0 auto;
+  background-color: white;
+}
+.pw_rule{
+  font-size:1vw;
+}
+.form_label{
+  color:grey;
+  padding: 1vw 0 0 0;
+}
+.form_input{
+  width:100%;
+  height: 1.5em;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+}
+.form_input:focus{
+  outline: none !important;
+  border-bottom: 1px solid black;
+}
+.name_input{
+  width:49%;
+}
+.form_bot{
+  display: flex;
+  align-items: center;
+}
+.form_btn{
+  color:white;
+  background-color:	#228B22;
+  font-size: 0.9em;
+  width:10rem;
+  height:2em;
+  text-align: center;
+  border-radius: 100px;
+}
+.left_btn{
+  margin-right: auto;
+}
+.form_subtitle{
+  margin-top: 3vw;
+  font-size: 1rem;
+  color: grey;
+  margin-bottom: 2vw;
+}
+.form_a{
+  color: grey;
+  font-size: 0.6em;
+  margin-left: 1vw;
+  text-decoration:underline;
+}
+.form_a:hover{
+  color: black;
+}
+
+.text-dark-custom{
+  color: black;
+}
+.text-white-custom{
+  color: white;
+}
+div.navbar nav ul{
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+}
+div.navbar nav ul li{
+  display: inline-block;
+  vertical-align: middle;
+}
+div.navbar nav ul li a{
+  text-decoration:none;
+}
+.hidden-li{
+  display: none;
+}
+.center_vertical{
+  display: flex;
+  align-items: center;
+}
+.home_logo{
+  display: inline-block;
+  width:22%;
+  margin: 2rem 5% 2rem 5%;
+  vertical-align: middle;
+}
+.home_partners_wide{
+  display: block;
+  width: 100%;
+}
+.home_partners_mobile{
+  display: none;
+}
+.story_wide{
+  display: block;
+  width: 70%;
+  margin-left: 15%;
+}
+.story_mobile{
+  display: none;
+}
+.join_btn{
+  width:100%;
+  color: #069104;
+  background-color:white;
+}
+.speak{
+  font-size: 2rem;
+}
+.member_block{
+  vertical-align: middle;
+}
+.team_box{
+  box-sizing: border-box;
+  padding: 0.5em 0 0.5em 0;
+  width: 32.9%;
+  height: auto;
+  display: inline-block;
+}
+.team_photo{
+  width: 96%;
+  margin-left:2%;
+}
+.team_info{
+  margin-left: 2%;
+}
+.discounts{
+  font-size:0;
+}
+.discount_box{
+  width: 33%;
+  position: relative;
+  vertical-align: middle;
+  border: 1px solid;
+  margin: -1px 0 0 -1px;
+}
+.discount_info{
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+  color: #961612;
+}
+.discount_box{
+  height: 15vw;
+}
+.priceBreakDown{
+  width: 100%;
+}
+.fullwidth{
+  width:100%;
+}
+.team_art{
+  height: 13rem;
+}
+.dashboard{
+  background-color: #069104;
+  border-radius: 1em;
+  color: white;
+  padding: 1em;
+  width: 35vw;
+  height: 15vw;
+  margin-left: 10vw;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 5px 10px 18px #888888;
+}
+.counter{
+  font-size: 4.5vw;
+  padding: 0;
+}
+.equivalent{
+  background-color: #F2F2F2;
+  border-radius: 1em;
+  color: black;
+  padding: 1em;
+  width: 35vw;
+  height: 15vw;
+  margin-left: 10vw;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 5px 10px 18px #888888;
+}
+.adj_h5{
+  font-size: 1.5vw;
+}
+.equal_lg{
+  display: inline-block;
+}
+.equal_sm{
+  display: none;
+}
+.dark_block{
+  background-color: grey;
+  height: 10px;
+}
+.new_promotion{
+  color: red;
+  font-size: 1.2em;
+}
+.promotion_name{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.ending_ele{
+  margin-bottom: 4em;
+}
+.busi_box{
+  height: 10vw;
+  display: flex;
+  align-items: center;
+}
+.busi_img{
+  max-width:35%;
+}
+.vertical_top{
+  vertical-align: top;
+}
+.vertical_mid{
+  vertical-align: middle;
+}
+.home_vid{
+  display: block;
+  width: 40vw;
+  height: 22.5vw;
+  margin: 0 auto;
+}
+.main-container{
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 180px; /* height of your footer */
+}
+.footer_contact{
+  font-size: 2vw;
+  color: white;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid white;
+  padding: 3vw;
+  background-color: #069104;
+}
+body {
+  height: 100%;
+  position: relative;
+}
+.footer_links{
+  padding-top: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_email{
+  font-size: 1.5vw;
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  vertical-align: middle;
+}
+.contact_email:hover{
+  color: lightgrey;
+}
+.link_logo{
+  width:3vw;
+  margin-left:1vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer_lg{
+  display:block;
+}
+.footer_sm{
+  display: none;
+}
+
+@media only screen and (max-width:576px){
+  .corner_icon{
+    width: 35vw;
+    padding: 0.5rem;
+  }
+  div.home-btn{
+    z-index: 4;
+  }
+  .text-green{
+    color: #069104;
+  }
+  .hidden-li{
+    display: block;
+  }
+
+	div.rotate30{
+		-ms-transform: rotate(30deg);
+    	-webkit-transform: rotate(30deg);
+	    transform: rotate(30deg);
+		-webkit-transition: all 50ms ease-out;
+		   -moz-transition: all 50ms ease-out;
+		    -ms-transition: all 50ms ease-out;
+		     -o-transition: all 50ms ease-out;
+		        transition: all 50ms ease-out;
+	}
+	div.rotate150{
+		-ms-transform: rotate(150deg);
+    	-webkit-transform: rotate(150deg);
+	    transform: rotate(150deg);
+		-webkit-transition: all 50ms ease-out;
+		   -moz-transition: all 50ms ease-out;
+		    -ms-transition: all 50ms ease-out;
+		     -o-transition: all 50ms ease-out;
+		        transition: all 50ms ease-out;
+	}
+
+	div.rotate45{
+		-ms-transform: rotate(45deg);
+    	-webkit-transform: rotate(45deg);
+	    transform: rotate(45deg);
+		-webkit-transition: all 100ms ease-out;
+		   -moz-transition: all 100ms ease-out;
+		    -ms-transition: all 100ms ease-out;
+		     -o-transition: all 100ms ease-out;
+		        transition: all 100ms ease-out;
+	}
+	div.rotate135{
+		-ms-transform: rotate(135deg);
+    	-webkit-transform: rotate(135deg);
+	    transform: rotate(135deg);
+		-webkit-transition: all 100ms ease-out;
+		   -moz-transition: all 100ms ease-out;
+		    -ms-transition: all 100ms ease-out;
+		     -o-transition: all 100ms ease-out;
+		        transition: all 100ms ease-out;
+	}
+  .navbar{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index:3;
+    top:0;
+    left:0;
+  }
+  div.circle{
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    position:fixed;
+    top: 35px;
+    right: 36px;
+    background:#069104;
+    opacity:1;
+    z-index: 2;
+    -webkit-transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -moz-transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -ms-transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -o-transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+  }
+  div.circle.expand{
+    width:500vw;
+    height:500vw;
+    top: -150vw;
+    right: -150vw;
+    -webkit-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -moz-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -ms-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -o-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+
+  }
+  div.navbar nav ul li{
+    list-style: none;
+    position:absolute;
+    top:10vh;
+    left:0;
+    opacity:0;
+    width:100vw;
+    text-align:center;
+    font-size:0px;
+    -webkit-transition: all 70ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -moz-transition: all 70ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -ms-transition: all 70ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -o-transition: all 70ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    transition: all 70ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+  }
+
+  div.navbar nav ul li a{
+    color:white;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:3px;
+  }
+
+  div.navbar nav ul li.animate{
+    font-size:1.5em;
+    opacity:1;
+    -webkit-transition: all 150ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -moz-transition: all 150ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -ms-transition: all 150ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    -o-transition: all 150ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+    transition: all 150ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
+  }
+
+  div.navbar nav ul li.animate:nth-of-type(1){
+	top:120px;
+	transition-delay: 0.0s;
+}
+div.navbar nav ul li.animate:nth-of-type(2){
+	top:190px;
+	transition-delay: 0.03s;
+
+}
+div.navbar nav ul li.animate:nth-of-type(3){
+	top:260px;
+	transition-delay: 0.06s;
+
+}
+div.navbar nav ul li.animate:nth-of-type(4){
+	top:330px;
+	transition-delay: 0.09s;
+
+}
+div.navbar nav ul li.animate:nth-of-type(5){
+	top:400px;
+	transition-delay: 0.12s;
+
+}
+div.navbar nav ul li.animate:nth-of-type(6){
+	top:470px;
+	transition-delay: 0.15s;
+
+}
+
+  div.burger {
+    position: absolute;
+    top: 11px;
+    right: 21px;
+    height: 30px;
+    width: 40px;
+    z-index: 3;
+    cursor: pointer;
+  }
+   div.fixed-div{
+     position: fixed;
+   }
+
+  div.x,
+  div.y,
+  div.z {
+    position:absolute; margin: auto;
+    top: 0px; bottom: 0px;
+    background-color: black;
+    border-radius:2px;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -ms-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+  }
+  div.x, div.y, div.z { height: 3px; width: 26px; }
+  div.y{top: 18px;}
+  div.z{top: 36px;}
+  div.move{
+    top: 20px;
+    -webkit-transition: all 70ms ease-out;
+       -moz-transition: all 70ms ease-out;
+        -ms-transition: all 70ms ease-out;
+         -o-transition: all 70ms ease-out;
+            transition: all 70ms ease-out;
+  }
+  .signup_btn{
+    font-size:1em;
+    padding: 0;
+  }
+  .container{
+    width:100%;
+    padding: 0;
+  }
+  .container_mid{
+    padding: 0;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .container_lg{
+    padding:0;
+    width:80%;
+    margin-left:10%;
+  }
+  .container_xl{
+    padding: 0;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .container_xxl{
+    padding:0;
+    width: 94%;
+    margin-left:3%;
+  }
+
+  .vh_40{
+    height:40vh;
+  }
+  .mt_1{
+    margin-top: 1rem;
+  }
+  .mt_2{
+    margin-top: 2rem;
+  }
+  .mt_3{
+    margin-top: 3rem;
+  }
+  .mt_4{
+    margin-top: 4rem;
+  }
+  .mt_5{
+    margin-top: 5rem;
+  }
+  .mt_7{
+    margin-top: 7rem;
+  }
+  .pt_1{
+    padding-top: 1rem;
+  }
+  .pt_2{
+    padding-top: 2rem;
+  }
+  .pt_3{
+    padding-top: 3rem;
+  }
+  .pt_4{
+    padding-top: 4rem;
+  }
+  .pt_5{
+    padding-top: 5rem;
+  }
+  .flexbox{
+    display: flex;
+    align-items: center;
+  }
+  .mobile_center{
+    text-align: center;
+  }
+  .mobile_record{
+    font-size: 3rem;
+  }
+  .mobile_text{
+    font-size: 1.1rem;
+  }
+  .logo_container{
+    padding:0;
+  }
+  .home_vid{
+    width: 80vw;
+    height: 45vw;
+    margin-left: 10vw;
+  }
+  .home_logo{
+    display: inline-block;
+    width:39%;
+    margin: 2rem 5% 2rem 5%;
+    vertical-align: middle;
+  }
+  .home_partners_wide{
+    display: none;
+  }
+  .home_partners_mobile{
+    display: block;
+    width: 100%;
+  }
+  .story_wide{
+    display: none;
+  }
+  .story_mobile{
+    display: block;
+    width: 100%;
+  }
+  .join_btn{
+    width: 40%;
+    margin-left: 30%;
+  }
+  .member_container{
+    height: 80vh;
+    text-align: center;
+  }
+  .speak{
+    font-size:1.5rem;
+  }
+  .sm_img{
+    width: 50vw;
+  }
+  .spec_logo{
+    width:40vw;
+    padding:0;
+    margin-left: 30vw;
+  }
+  .discounts{
+    padding: 0;
+  }
+  .discount_box{
+    width:80vw;
+    margin-left: 10vw;
+    height:60vw;
+    vertical-align: middle;
+  }
+  .ending_ele{
+    margin-bottom: 4rem;
+  }
+  .about_slogan{
+    font-size: 1.6rem;
+  }
+  .team_box{
+    width: 100%;
+    float: none;
+  }
+  .team_photo{
+    margin:0;
+  }
+  .team_info{
+    margin:0;
+  }
+  .about_link{
+    font-size: 2rem;
+  }
+  .dark_block{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .dashboard_logo{
+    width:60%;
+  }
+  .dashboard{
+    height: 60vw;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  .equivalent{
+    height: 60vw;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  .adj_h5{
+    font-size: 6vw;
+  }
+  .counter{
+    font-size: 15vw;
+  }
+  .equal_lg{
+    display: none;
+  }
+  .equal_sm{
+    display: block;
+  }
+  .equal_txt{
+    width:68%;
+  }
+  .equal_img{
+    width: 30%;
+  }
+  .signup_form{
+    width: 80vw;
+    margin: 0 auto;
+    background-color: white;
+  }
+  .busi_box{
+    height: 8rem;
+  }
+  .footer_lg{
+    display: none;
+  }
+  .footer_sm{
+    display: block;
+  }
+  .footer_contact{
+    font-size: 8vw;
+  }
+  .contact_email{
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+  }
+  .link_logo{
+    width:10vw;
+  }
+  .link_logo_right{
+    margin-left: 5vw;
+  }
+  .icons{
+    padding-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team_art{
+    width:100%;
+    height: auto;
+  }
+}
