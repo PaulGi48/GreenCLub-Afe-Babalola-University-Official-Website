@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Club Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Green Club Blog</h1>
+        <div>Back <a href="index.html">Home</a></div>
+    </header>
+
+    <main>
+        <div class="blog-cards">
+            <div class="blog-card" onclick="showArticle(1)">
+                <h2>Article 1</h2>
+                <p>Short description of the first article...</p>
+            </div>
+            <div class="blog-card" onclick="showArticle(2)">
+                <h2>Article Title 2</h2>
+                <p>Short description of the second article...</p>
+            </div>
+            <!-- Add more blog cards as needed -->
+        </div>
+    </main>
+
+    <div class="popup" id="article-popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2 id="article-title">Article Title</h2>
+            <div id="article-content">
+                <!-- Article content goes here -->
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>
