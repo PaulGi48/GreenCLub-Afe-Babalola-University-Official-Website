@@ -63,53 +63,72 @@
 		</div>
 	</header>
 
-    <main>
-        <div class="blog-cards">
-            <div class="blog-card" onclick="showArticle(1)">
-                <h2>Article 1</h2>
-                <p>Short description of the first article...</p>
-            </div>
-            <div class="blog-card" onclick="showArticle(2)">
-                <h2>Article Title 2</h2>
-                <p>Short description of the second article...</p>
-            </div>
-            <!-- Add more blog cards as needed -->
-        </div>
-    </main>
+	<main>
+		<div class="blog-cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px;">
+			<!-- Article 1 -->
+			<div class="blog-card" onclick="showArticle(1)" style="border: 1px solid #ccc; padding: 20px; border-radius: 10px; cursor: pointer;">
+				<h2>Climate Action</h2>
+				<p>Exploring innovative solutions to combat climate change globally.</p>
+			</div>
+	
+			<!-- Article 2 -->
+			<div class="blog-card" onclick="showArticle(2)" style="border: 1px solid #ccc; padding: 20px; border-radius: 10px; cursor: pointer;">
+				<h2>Zero Hunger</h2>
+				<p>Efforts and challenges in achieving global food security.</p>
+			</div>
+	
+			<!-- Additional articles... -->
+	
+			<!-- Article 6 -->
+			<div class="blog-card" onclick="showArticle(6)" style="border: 1px solid #ccc; padding: 20px; border-radius: 10px; cursor: pointer;">
+				<h2>Quality Education</h2>
+				<p>Initiatives and progress towards inclusive and equitable quality education for all.</p>
+			</div>
+		</div>
+	
+		<!-- Popup Modal -->
+		<div class="popup" id="article-popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1000;">
+			<div class="popup-content" style="background-color: white; padding: 20px; border-radius: 10px; width: 60%; margin: 50px auto;">
+				<span class="close" onclick="closePopup()" style="cursor: pointer;">&times;</span>
+				<h2 id="article-title">Article Title</h2>
+				<div id="article-content">
+					<!-- Article content goes here -->
+				</div>
+			</div>
+		</div>
+	</main>
+	
 
-    <div class="popup" id="article-popup">
-        <div class="popup-content">
-            <span class="close" onclick="closePopup()">&times;</span>
-            <h2 id="article-title">Article Title</h2>
-            <div id="article-content">
-                <!-- Article content goes here -->
-            </div>
-        </div>
-    </div>
 
-    <footer id="footer" class="footer-style" style="padding-top: 20px; text-align: center;">
-        <div class="container">
-          <ul class="inline-menu">
-            <li>
-              <Home href="/index.html">Home</a>
-            </li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/gallery.html">Gallery</a> </li>
-            <li><a href="#contact">Contact Us</a></li>
-    
-            <li class="page_item page-item-746"><a
-                href="https://www.unops.org/about/our-story/sustainable-development-goals?gad=1&gclid=Cj0KCQiAgK2qBhCHARIsAGACuzldVjqwFUzygfC84pFTTAHl7q7DEkJBvaJCfCgzznfPSGtuyQJEWXAaAk-gEALw_wcB">Sustainability
-                Nuggets</a></li>
-            <a class="copyright"> Copyright &copy;2023 GreenClubAbuad. All Rights Reserved.</p>
-              <span style="background-color: bisque;" class="bizberg_copyright_inner"><b>Designed by <a
-                    href="https://www.linkedin.com/in/giovanni-paul-sodipo-968324183/" target="_blank"> Giovanni Paul-Sodipo
-                </b>
-            </a> </span>
-        </div>
-        <p style="text-align: center; color: white; padding-top: 15px; font-weight: 400;"> Membership subscriptions and
-          donations are deductible through GreenClub 501(c)(3)</p>
-      </footer>
+
+	<footer id="footer" class="footer-style" style="padding: 20px; text-align: center; background-color: #333; color: white;">
+		<div class="container">
+			<ul class="inline-menu" style="list-style: none; padding: 0; margin-bottom: 20px;">
+				<li style="display: inline; margin-right: 10px;"><a href="https://www.unops.org/about/our-story/sustainable-development-goals?gad=1&gclid=Cj0KCQiAgK2qBhCHARIsAGACuzldVjqwFUzygfC84pFTTAHl7q7DEkJBvaJCfCgzznfPSGtuyQJEWXAaAk-gEALw_wcB">UN Sustainability Nuggets</a></li>
+				<li style="display: inline; margin-right: 10px;"><a href="https://www.unops.org/about/our-story/sustainable-development-goals?gad=1&gclid=Cj0KCQiAgK2qBhCHARIsAGACuzldVjqwFUzygfC84pFTTAHl7q7DEkJBvaJCfCgzznfPSGtuyQJEWXAaAk-gEALw_wcB">UN Sustainability Development Goals</a></li>
+				<li style="display: inline; margin-right: 10px;"><a href="https://www.unops.org/about/our-story/sustainable-development-goals?gad=1&gclid=Cj0KCQiAgK2qBhCHARIsAGACuzldVjqwFUzygfC84pFTTAHl7q7DEkJBvaJCfCgzznfPSGtuyQJEWXAaAk-gEALw_wcB">The Green Club Abuad Guidelines</a></li>
+			</ul>
+	  
+			<div style="margin-bottom: 10px;">
+				<h2 style="margin-bottom: 0.5em;">Contact Us</h2>
+				<p>You can always reach us at: <a href="mailto:abuadcleanandgreen@gmail.com" style="color: green;">abuadcleanandgreen@gmail.com</a></p>
+			</div>
+	  
+			<!-- Social Icons -->
+			<div style="margin-bottom: 20px;">
+			  <a href="https://twitter.com/yourtwitterhandle" target="_blank" style="text-decoration: none; color: #09ce23; font-size: 24px; margin-right: 10px;">&#x1F426;</a> <!-- Twitter bird emoji as placeholder -->
+			  <a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank" style="text-decoration: none; color: #16df3b; font-size: 24px; margin-right: 10px;">&#x1F465;</a> <!-- Group of people emoji as placeholder for LinkedIn -->
+			  <a href="mailto:abuadcleanandgreen@gmail.com" style="text-decoration: none; color: #06d10a; font-size: 24px;">&#9993;</a> <!-- Unicode envelope for Email -->
+			  
+			</div>
+	  
+			<div style="margin-bottom: 20px;">
+				<p>&copy; 2023 GreenClubAbuad. All Rights Reserved. Designed by <a href="https://www.linkedin.com/in/giovanni-paul-sodipo-968324183/" target="_blank">Giovanni Paul-Sodipo</a></p>
+			</div>
+	  
+			<p>Membership subscriptions and donations are deductible through GreenClub 501(c)(3)</p>
+		</div>
+	  </footer>
    
 </body>
 </html>
