@@ -854,6 +854,7 @@ footer {
 }
 
 .blog-cards {
+    background-color:white;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
